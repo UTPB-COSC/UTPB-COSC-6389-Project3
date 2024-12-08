@@ -20,3 +20,4 @@ Grading criteria:
 
 Deliverables:
 A Python application which provides a correct implementation of a neural network generation and training system and is capable of training an image classifier which has good accuracy for the problem set selected.
+

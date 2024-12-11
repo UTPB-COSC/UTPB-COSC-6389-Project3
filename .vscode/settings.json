@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./image_classifier_", "./image_classifier_"]
+}

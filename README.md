@@ -1,22 +1,10 @@
-# UTPB-COSC-6389-Project3
-This repo contains the assignment and provided code base for Project 3 of the graduate Computational Biomimicry class.
+# Pokémon Type Classifier with CNN
 
-The goals of this project are:
-1) Understand how convolutional neural networks are constructed and used, and the particulars of their implementation.
+This project implements a deep learning-based Pokémon type classifier using a Convolutional Neural Network (CNN) in TensorFlow, integrated with a Tkinter GUI for interactive training and visualization.
 
-Description:
-Using the code from your Project 2, create an extension which implements convolutions in your networks.  This time, your goal is to create an image classifier network, which accepts single rectangular images as input and outputs which of the object classes the network believes the image depicts.  You are allowed to select "toy" problems for this, such as the famous handwritten numerical digit dataset (example available here: https://www.kaggle.com/datasets/jcprogjava/handwritten-digits-dataset-not-in-mnist).
-
-This site (https://www.kaggle.com/datasets) seems to be a database of datasets that you will likely find useful for both projects 2 and 3.
-
-As with Projects 1 and 2, your application must generate the neural networks, display them on a canvas, and update them in real time as the weight values change.
-
-You are not allowed to make use of any libraries related to neural networks in the code for this project.  The implementation of the network construction, operation, forward and backward propagation, training, and testing must all be your own.
-
-Grading criteria:
-1) If the code submitted via your pull request does not compile, the grade is zero.
-2) If the code crashes due to forseeable unhandled exceptions, the grade is zero.
-3) For full points, the code must correctly perform the relevant algorithms and display the network in real time, via the UI.
-
-Deliverables:
-A Python application which provides a correct implementation of a neural network generation and training system and is capable of training an image classifier which has good accuracy for the problem set selected.
+## Features:
+- **Image Preprocessing**: Loads and processes Pokémon images, classifying them into 'grass' or 'fire' types based on color analysis (red vs. green pixels).
+- **CNN Model**: A simple CNN architecture is used for binary classification.
+- **Real-time Visualization**: Displays graphs of training loss and accuracy, as well as image from the dataset.
+- **Training Control**: Users can specify custom epochs and learning rates for training the model.
+- **Data Augmentation**: Implements basic augmentation (e.g., horizontal flipping and rotation) to improve model generalization.
